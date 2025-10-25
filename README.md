@@ -1,3 +1,8 @@
+
+
+
+
+
 L'objectif du projet est d'extraire des connaissances à partir des données de crédit pour aider
 à la prise de décision des institutions:
 
