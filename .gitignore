@@ -1,0 +1,19 @@
+# Fichier systeme
+Thumbs.db
+
+# Python et poetry
+.venv/
+__pycache__/
+*.pyc
+
+# Données
+data/raw/*
+.ipynb_checkpoints
+
+# Fichier source
+src/*
+
+
+
+
+
