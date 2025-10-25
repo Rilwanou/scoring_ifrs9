@@ -10,9 +10,6 @@ __pycache__/
 data/raw/*
 .ipynb_checkpoints
 
-# Fichier source
-src/*
-
 
 
 
