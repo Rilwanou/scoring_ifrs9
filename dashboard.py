@@ -8,10 +8,10 @@ import os
 # --- 1. CONFIGURATION DE LA PAGE ---
 st.set_page_config(
     page_title="Simulateur ECL (IFRS 9)",
-    page_icon="📊",
+    page_icon="🏦",
     layout="wide"  # "wide" donne plus d'espace
 )
-st.title("📊 Simulateur de Risque de Crédit (IFRS 9)")
+st.title("🏦 Modèle de scoring de Crédit (IFRS 9)")
 
 # --- 2. CHARGEMENT DU MODÈLE PD ---
 @st.cache_resource
