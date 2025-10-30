@@ -1,6 +1,6 @@
 # 📊 Modele de Scoring (PD) & Dashboard ECL (IFRS 9)
 
-Ce projet est une simulation complète d'un moteur de risque de crédit. Il entraîne un modèle de **Probabilité de Défaut (PD)** et le déploie dans un dashboard **Streamlit** interactif pour simuler le calcul de l'**Expected Credit Loss (ECL)** selon la norme IFRS 9.
+Ce projet est une simulation complète d'un scoring de risque de crédit. Il entraîne un modèle de **Probabilité de Défaut (PD)** et le déploie dans un dashboard **Streamlit** interactif pour simuler le calcul de l'**Expected Credit Loss (ECL)** selon la norme IFRS 9.
 
 Ce projet démontre les meilleures pratiques en MLOps, de la gestion des dépendances avec `Poetry` à la conteneurisation avec `Docker`.
 
@@ -37,14 +37,18 @@ Cette méthode est la plus simple pour tester et développer l'application local
 
 ```bash
 # 1. Cloner le dépôt
-git clone [https://github.com/VOTRE_NOM_UTILISATEUR_GITHUB/scoring_ifrs9.git](https://github.com/VOTRE_NOM_UTILISATEUR_GITHUB/scoring_ifrs9.git)
-
 # 2. Se déplacer dans le dossier
 cd scoring_ifrs9
 
 # 3. Installer les dépendances
 poetry install
 
+# 4. Activer l'environnement virtuel
+poetry shell
+
+# 5. Lancer l'application Streamlit
+streamlit run dashboard.py
+```
 
 
 ## 📊 Données et Sélection des Variables
