@@ -1,4 +1,4 @@
-# 📊 Modele de Scoring (PD) et calcul des ECL
+# Modele de Scoring (PD) et calcul des ECL
 
 Ce projet est une simulation complète d'un scoring de risque de crédit. Il entraîne un modèle de **Probabilité de Défaut (PD)** et le déploie dans un dashboard **Streamlit** interactif pour simuler le calcul de l'**Expected Credit Loss (ECL)** selon la norme IFRS 9.
 
@@ -6,7 +6,7 @@ Ce projet démontre les meilleures pratiques en MLOps, de la gestion des dépend
 
 ![Aperçu du Dashboard](scoring_app.png)
 
-## ✨ Fonctionnalités
+## Fonctionnalités
 
 * **Modélisation de la PD :** Entraînement d'un pipeline `Scikit-learn` pour prédire la probabilité de défaut.
 * **Calcul d'ECL (IFRS 9) :** Simulation en temps réel de la formule `ECL = PD * LGD * EAD`.
@@ -14,7 +14,7 @@ Ce projet démontre les meilleures pratiques en MLOps, de la gestion des dépend
 * **Gestion des Dépendances :** Environnement reproductible garanti par `Poetry`.
 * **Prêt pour la Production :** L'application est entièrement conteneurisée avec `Docker`.
 
-## 🛠️ Stack Technique
+## Stack Technique
 
 * **Analyse & Modélisation :** `Pandas`, `Numpy`, `Scikit-learn`
 * **Gestion des Dépendances :** `Poetry`
@@ -24,7 +24,7 @@ Ce projet démontre les meilleures pratiques en MLOps, de la gestion des dépend
 ---
 ---
 
-## 🚀 Lancement Rapide (Local - Recommandé)
+## Lancement Rapide (Local - Recommandé)
 
 Cette méthode est la plus simple pour tester et développer l'application localement.
 
@@ -51,7 +51,7 @@ streamlit run dashboard.py
 ```
 
 
-## 📊 Données et Sélection des Variables
+## Données et Sélection des Variables
 
 Ce projet utilise un jeu de données de prêts pour modéliser le risque de défaut. Les variables clés utilisées pour l'entraînement du modèle (les *features*) sont les suivantes :
 
