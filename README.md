@@ -1,4 +1,4 @@
-# 📊 Modele de Scoring (PD) & Dashboard ECL (IFRS 9)
+# 📊 Modele de Scoring (PD) et calcul des ECL
 
 Ce projet est une simulation complète d'un scoring de risque de crédit. Il entraîne un modèle de **Probabilité de Défaut (PD)** et le déploie dans un dashboard **Streamlit** interactif pour simuler le calcul de l'**Expected Credit Loss (ECL)** selon la norme IFRS 9.
 
